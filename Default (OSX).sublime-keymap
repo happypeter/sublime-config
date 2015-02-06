@@ -1,0 +1,4 @@
+[
+    { "keys": ["shift+tab"], "command": "reindent" , "args": { "single_line": false } },
+    { "keys": ["ctrl+shift+."], "command": "erb" }
+]

@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+![](http://media.happycasts.net/pic/${1}.png)
+]]></content>
+  <tabTrigger>media</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.markdown.multimarkdown, text.html.markdown</scope>
+
+</snippet>

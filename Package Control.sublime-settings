@@ -1,0 +1,16 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Emmet",
+		"Git",
+		"Package Control",
+		"RailsCasts Colour Scheme",
+		"Sass",
+		"SublimeERB",
+		"SyncedSideBar"
+	]
+}
