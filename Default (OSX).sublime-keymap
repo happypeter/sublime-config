@@ -1,4 +1,22 @@
 [
-    { "keys": ["shift+tab"], "command": "reindent" , "args": { "single_line": false } },
-    { "keys": ["ctrl+shift+."], "command": "erb" }
+  { "keys": ["shift+tab"], "command": "reindent" , "args": { "single_line": false } },
+  { "keys": ["ctrl+shift+."], "command": "erb" },
+
+  // 下面这些是我从 'Key binding Default' 中直接拷贝过来的，为的是帮助记忆
+  // { "keys": ["super+n"], "command": "new_file" },
+  // { "keys": ["super+s"], "command": "save" },
+  // { "keys": ["super+w"], "command": "close" },
+  // { "keys": ["super+k", "super+b"], "command": "toggle_side_bar" },
+  // { "keys": ["super+z"], "command": "undo" },
+  // { "keys": ["super+y"], "command": "redo_or_repeat" },
+  // { "keys": ["ctrl+tab"], "command": "next_view_in_stack" },
+  // { "keys": ["super+]"], "command": "indent" },
+  // { "keys": ["super+["], "command": "unindent" },
+  // { "keys": ["ctrl+minus"], "command": "jump_back" }, // after search jump
+  // { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "find", "reverse": false} },
+  // { "keys": ["f4"], "command": "next_result" },
+  // { "keys": ["shift+f4"], "command": "prev_result" },
+  // { "keys": ["ctrl+super+up"], "command": "swap_line_up" },
+  // { "keys": ["ctrl+super+down"], "command": "swap_line_down" },
+  // { "keys": ["super+b"], "command": "build" },
 ]
