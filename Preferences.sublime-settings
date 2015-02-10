@@ -1,28 +1,27 @@
 {
-	"auto_completion": true,
-	"color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme",
-	"ensure_newline_at_eof_on_save": true,
-	"file_exclude_patterns":
-	[
-		".DS_Store",
-		"*.sublime-workspace",
-		"*.scssc"
-	],
-	"folder_exclude_patterns":
-	[
-		".git",
-		"log",
-		"tmp/cache",
-		".vagrant"
-	],
-	"font_size": 16,
-	"hot_exit": false,
-	"line_padding_bottom": 7,
-	"line_padding_top": 7,
-	"remember_open_files": false,
-	"scroll_past_end": true,
-	"tab_completion": true,
-	"tab_size": 2,
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+  "auto_completion": true,
+  "ensure_newline_at_eof_on_save": true,
+  "file_exclude_patterns":
+  [
+    ".DS_Store",
+    "*.sublime-workspace",
+    "*.scssc"
+  ],
+  "folder_exclude_patterns":
+  [
+    ".git",
+    "log",
+    "tmp/cache",
+    ".vagrant"
+  ],
+  "font_size": 16,
+  "hot_exit": false,
+  "line_padding_bottom": 7,
+  "line_padding_top": 7,
+  "remember_open_files": false,
+  "scroll_past_end": true,
+  "tab_completion": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true
 }
