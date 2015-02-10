@@ -17,10 +17,6 @@
 	],
 	"font_size": 16,
 	"hot_exit": false,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
 	"line_padding_bottom": 7,
 	"line_padding_top": 7,
 	"remember_open_files": false,
