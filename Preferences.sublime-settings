@@ -14,6 +14,7 @@
     "tmp/cache",
     ".vagrant"
   ],
+  "ignored_packages":["PHP"], // to aviod php snippets in html files
   "font_size": 16,
   "hot_exit": false,
   "line_padding_bottom": 7,
