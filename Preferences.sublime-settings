@@ -1,5 +1,4 @@
 {
-  "auto_completion": true,
   "ensure_newline_at_eof_on_save": true,
   "file_exclude_patterns":
   [
@@ -20,9 +19,9 @@
   ], 
   "font_size": 16,
   "hot_exit": false,
+  "remember_open_files": false,
   "line_padding_bottom": 7,
   "line_padding_top": 7,
-  "remember_open_files": false,
   "scroll_past_end": true,
   "tab_completion": true,
   "tab_size": 2,
