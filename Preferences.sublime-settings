@@ -14,7 +14,10 @@
     "tmp/cache",
     ".vagrant"
   ],
-  "ignored_packages":["PHP"], // to avoid php snippets in html files
+  "ignored_packages":[
+    "Vintage", // missing this will trigger vintage mode
+    "PHP", // to avoid php snippets in html files
+  ], 
   "font_size": 16,
   "hot_exit": false,
   "line_padding_bottom": 7,
