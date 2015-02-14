@@ -23,7 +23,7 @@
   "line_padding_bottom": 7,
   "line_padding_top": 7,
   "scroll_past_end": true,
-  "tab_completion": true,
+	"auto_complete_commit_on_tab": true,
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true
