@@ -4,7 +4,6 @@
    "scope": "text.html.markdown",
    "completions":
    [
-      { "trigger": "hhh", "contents": "{% highlight ${1:ruby} %}\n${2}\n{% endhighlight %}" },
       { "trigger": "l", "contents": "[${1}](${2})${3}" },
       { "trigger": "media", "contents": "![](http://media.happycasts.net/pic/${1}.png)" }
    ],

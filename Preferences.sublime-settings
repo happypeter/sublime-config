@@ -1,57 +1,31 @@
 {
-
-  // 保存的时候自动给加上换行符
-  "ensure_newline_at_eof_on_save": true,
-
-  // 下面这几类的文件会被忽略
-  "file_exclude_patterns":
-  [
-    ".DS_Store",
-    "*.sublime-workspace",
-    "*.scssc"
-  ],
-
-  // 这几类文件夹会被忽略
-  "folder_exclude_patterns":
-  [
-    ".git",
-    "log",
-    "tmp/cache",
-    ".vagrant"
-  ],
-
-  // 这个就是为了防止在呼叫 snippet 的时候出现一堆 PHP 相关的内容
-  // 我又不写 PHP，所以把 PHP 这个包忽略了就行了
-  // Vintage 是系统默认忽略的，但是这里一定要加上，不然就会覆盖系统默认，而使能 Vintage 模式了
-  // 注：Vintage 模式进入后就变成 vim 的操作方式了
-  "ignored_packages":[
-    "Vintage", // missing this will trigger vintage mode
-    "PHP", // to avoid php snippets in html files
-  ],
-
-  // 设置打开文件的字体，如果要设置，侧边栏和标签字体就到 Default.sublime-theme 中
-  "font_size": 16,
-
-  // 防止每次大家都恢复成以前的东西，有时候挺烦的
-  "hot_exit": false,
-  "remember_open_files": false,
-
-  // 行间距大点感觉舒服一点，跟 laracasts 学的
-  "line_padding_bottom": 7,
-  "line_padding_top": 7,
-
-  // 有时候滚动页面，想把最低端的东西滚到屏幕中间来，没有下面这个设置是滚不上来的
-  "scroll_past_end": true,
-
-  // 自动补齐的时候，直接敲 tab 就选中了
 	"auto_complete_commit_on_tab": true,
-
-  // 原来写 C 语言的时候都是用4个空格做一级缩进，现在写 html css 用2个空格
-  // 有了下面这个设置，敲一下 tab 就自动变成两个空格了
-  "tab_size": 2,
-  "translate_tabs_to_spaces": true,
-
-  // 行尾有空格，到 github 上看总是会有大红的报错样式，很烦人
-  // 这个选项可以在保存的时候自动清除行尾空格
-  "trim_trailing_white_space_on_save": true
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		"*.sublime-workspace",
+		"*.scssc"
+	],
+	"folder_exclude_patterns":
+	[
+		".git",
+		"log",
+		"tmp/cache",
+		".vagrant"
+	],
+	"font_size": 16,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"PHP",
+		"Vintage"
+	],
+	"line_padding_bottom": 7,
+	"line_padding_top": 7,
+	"remember_open_files": false,
+	"scroll_past_end": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
