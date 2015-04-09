@@ -1,4 +1,6 @@
 {
+
+   //  completions 的设置有时候会失灵 （ Mac Yosemite + sublime3 ）不行就改成 snippet 吧，那个还是一直都很好用
    "scope": "text.html.markdown",
    "completions":
    [
