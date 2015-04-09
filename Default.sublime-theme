@@ -1,0 +1,12 @@
+[
+/* 侧边栏和文件标签的字体都太小了，调整一下。*/
+    {
+        "class": "sidebar_label",
+        "font.size": 15
+    },
+
+    {
+        "class": "tab_label",
+        "font.size" : 13,
+    },
+]
