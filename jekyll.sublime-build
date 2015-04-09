@@ -1,0 +1,23 @@
+{
+    "cmd": ["/Users/peter/bin/jekyll.sh", "$file"],
+    "working_dir": "$file_path",
+    "selector": "text.html.markdown"
+}
+
+//////////
+// jekyll.sh 如下
+/////////
+
+// #!/usr/bin/env bash
+
+// git add -A
+// git commit -a -m'wip'&&git push
+
+// VAR=$1+
+// FILE=`basename $VAR`+
+// PAGE=${FILE%.*}".html"+
+// DIR=`dirname $VAR`
+// PROJECT=`basename $DIR`
+// URL="http://happypeter.gitcafe.io/"$PROJECT"/"$PAGE
+// sleep 20 # wait for jekyll to take effect
+// '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' $URL
