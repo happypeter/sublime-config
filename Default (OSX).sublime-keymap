@@ -9,7 +9,7 @@
 
   //  用来在 .erb 文件中输入 <%=  %>，再敲一次可以变成 <%  %>
   // 需要安装包： https://github.com/eddorre/SublimeERB
-  { "keys": ["ctrl+shift+."], "command": "erb" },
+  { "keys": ["ctrl+shift+."], "command": "erb" }
 
   // 下面这些是我从 'Key binding Default' 中直接拷贝过来的，为的是帮助记忆
   // { "keys": ["super+n"], "command": "new_file" },
