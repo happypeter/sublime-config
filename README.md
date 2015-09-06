@@ -20,3 +20,7 @@ git clone git@github.com:happypeter/sublime-config.git
 mv sublime-config/* .
 rm -rf sublime-config
 ```
+
+- https://packagecontrol.io/installation 
+  安装 packagecontrol 这样，所有的包会自动安装上
+  ctrl 跟 导引号 来呼叫出 command console
