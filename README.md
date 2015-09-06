@@ -1,4 +1,4 @@
-### Hello Sublime3 Users
+### Hello Sublime 3或2 Users
 
 我使用的操作系统是 Mac (目前是 Yosemite)，不同的操作系统，在 sublime
 配置上会有微小的差别。
